@@ -1,0 +1,57 @@
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.list,
+.skill {
+  list-style: none;
+}
+
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  list-style: none;
+}
+
+.link,
+.logo {
+  text-decoration: none;
+}
+
+.link :hover,
+.link :focus {
+  color: var(--accent-color);
+}
+
+li.pointer {
+  cursor: pointer;
+}
+
+.photo {
+  display: block;
+}

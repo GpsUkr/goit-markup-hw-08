@@ -1,0 +1,22 @@
+// utils styles
+@import "./utils/vars";
+@import "./utils/v-hidden";
+
+// base styles
+@import "./base/base";
+@import "./base/reset";
+
+// componets styles
+@import "./components/container";
+@import "./components/hero";
+@import "./components/btn";
+@import "./components/header";
+@import "./components/logo";
+@import "./components/navigation";
+@import "./components/portfolio";
+@import "./components/skill";
+@import "./components/work";
+@import "./components/team";
+@import "./components/clients";
+@import "./components/footer";
+@import "./components/modal-window";
