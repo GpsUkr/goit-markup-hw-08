@@ -1,22 +1,17 @@
-// utils styles
-@import "./utils/vars";
-@import "./utils/v-hidden";
-
-// base styles
-@import "./base/base";
-@import "./base/reset";
-
-// componets styles
-@import "./components/container";
-@import "./components/hero";
-@import "./components/btn";
-@import "./components/header";
-@import "./components/logo";
-@import "./components/navigation";
-@import "./components/portfolio";
-@import "./components/skill";
-@import "./components/work";
-@import "./components/team";
-@import "./components/clients";
-@import "./components/footer";
-@import "./components/modal-window";
+@import'./utils/variables';
+@import'./utils/mixin';
+@import'./components/common';
+@import'./components/page-header';
+@import'./components/site-nav';
+@import'./components/mail-tel';
+@import'./components/menu';
+@import'./components/signup-form';
+@import'./components/order';
+@import'./components/modal';
+@import'./components/benefits';
+@import'./components/wedo';
+@import'./components/team';
+@import'./components/clients';
+@import'./components/portfolio-choice';
+@import'./components/portfolio';
+@import'./components/page-footer';
