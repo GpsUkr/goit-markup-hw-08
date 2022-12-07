@@ -5,17 +5,52 @@
     background: #2f303a;
     padding-top: 60px;
     padding-bottom: 60px;
-
+    align-items: center;
     justify-content: center;
 }
 
 .container-footer {
-    display: flex;
-    align-items: baseline;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    @media screen and (min-width: $desktop) {
+        display: flex;
+        align-items: center;
+       
+    }
+}
+
+.footer-tablet {
+    display: block;
+   
+
+   
+    @media screen and (min-width: $tablet) {
+        display: flex;
+        align-items: baseline;
+        text-align: center;
+        padding-left: 76px;
+        padding-right: 89px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        display: flex;
+        align-items: baseline;
+        padding: 0;
+
+    }
 }
 
 .footer-link {
-    margin-right: 70px;
+   /* margin-right: 70px;*/
+   align-items: center;
+   justify-content: center;
+
+    @media screen and (min-width: $desktop) {
+       margin-right: 70px;
+    }
 }
 
 .last-part-footer {
@@ -64,6 +99,7 @@
 
 .footer-tel-link {
     display: inline-block;
+    margin-bottom: 60px;
 
     font-style: normal;
     font-weight: 400;
@@ -75,6 +111,11 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    @media screen and (min-width: $desktop) {
+        margin-bottom: 0;
+       
+    }
 }
 
 .icon-title {
@@ -93,12 +134,32 @@
     text-align: center;
     justify-content: center;
 
+    margin-bottom: 60px;
+
     gap: 10px;
     cursor: pointer;
+
+    @media screen and (min-width: $desktop) {
+        margin-bottom: 0;
+       
+    }
 }
 
 .container-icon {
-    margin-right: 93px;
+   /* margin-right: 93px;*/
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    @media screen and (min-width: $tablet) {
+        margin-left: 160px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        margin-right: 93px;
+        margin-left: 0;
+       
+    }
 }
 
 .icon-item {
@@ -130,7 +191,12 @@
 }
 
 .footer-form-masseg {
-    display: flex;
+    display: block;
+
+    @media screen and (min-width: $desktop) {
+        display: flex;
+       
+    }
 }
 
 .footer-messeg-title {
@@ -143,12 +209,12 @@
 }
 
 .footer-form-input {
-    width: 358px;
+    width: 450px;
     height: 50px;
     
     padding: 0;
     padding-left: 16px;
-    margin-right: 12px;
+    margin-bottom: 20px;
 
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
@@ -162,5 +228,16 @@
 
     &:focus {
         border-color: var(--accent-color);
+    }
+
+
+    @media screen and (min-width: $desktop) {
+        width: 358px;
+        height: 50px;
+        
+        padding: 0;
+        padding-left: 16px;
+        margin-right: 12px;
+       
     }
 }

@@ -1,5 +1,7 @@
 .skill {
   display: block;
+  align-items: center;
+  justify-content: center;
 
 
   @media screen and (min-width: $desktop) {
@@ -12,6 +14,11 @@
 .skill__container {
   padding-top: 94px;
   padding-bottom: 94px;
+
+  @media screen and (min-width: $tablet) {
+    padding-top: 60px;
+    padding-bottom:60px;
+   }
 }
 
 .skill__title {
@@ -21,6 +28,9 @@
   line-height: 200%;
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
+
+  align-items: center;
+  justify-content: center;
 
 
   @media screen and (min-width: $tablet) {

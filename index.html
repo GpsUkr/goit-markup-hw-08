@@ -18,13 +18,18 @@
 
 </head>
 
-<!-- <body>
+ <body>
   <header class="header">
     <div class="header__container container">
       <a href="./index.html" class="header__logo logo">
         <span class="logo__first">Web</span>
         <span class="logo__last">Studio</span>
       </a>
+      <!--<button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+          <svg class="icon-menu">
+            <use href="./img/symbol-defs (5).svg#icon-menu"></use>
+          </svg>
+        </button>-->
       <nav class="nav__header nav">
         <ul class="nav__list">
           <li class="nav__item link">
@@ -63,7 +68,7 @@
         <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
         <button class="hero__btn btn" type="button" data-modal-open>Замовити послугу</button>
       </div>
-    </section> -->
+    </section>
 
     <section class="skill">
       <div class="skill__container container">
@@ -126,7 +131,7 @@
         <ul class="skill">
           <li>
             <div class="wrapper">
-              <img class="photo" width="370" height="294" src="./img/photo1.jpg" alt="робота1" />
+              <img class="photo" width="370" height="294" src="./img/work/photo1.jpg" alt="робота1" />
               <div class="overlay__box">
                 <p class="overlay__text">Десктопні додатки</p>
               </div>
@@ -134,7 +139,7 @@
           </li>
           <li>
             <div class="wrapper">
-              <img width="370" height="294" src="./img/photo2.jpg" alt="робота2" />
+              <img width="370" height="294" src="./img/work/photo2.jpg" alt="робота2" />
               <div class="overlay__box">
                 <p class="overlay__text">Мобільні додатки</p>
               </div>
@@ -142,7 +147,7 @@
           </li>
           <li class="">
             <div class="wrapper">
-              <img width="370" height="294" src="./img/photo3.jpg" alt="робота3" />
+              <img width="370" height="294" src="./img/work/photo3.jpg" alt="робота3" />
               <div class="overlay__box">
                 <p class="overlay__text">Дизайнерські рішення</p>
               </div>
@@ -152,12 +157,12 @@
       </div>
     </section> -->
 
-    <section class="team">
+   <section class="team">
       <div class="container">
         <h2 class="team__title">Наша команда</h2>
         <ul class="skill">
           <li class="team__style">
-            <img class="photo" width="270" height="260" src="./img/Igor.jpg" alt="наша команда" />
+            <img class="photo" width="270" height="260" src="./img/team/img.jpg" alt="наша команда" />
             <div class="team__item">
               <h3 class="team__list">Ігор Дем'яненко</h3>
               <p class="team__profi">Product Designer</p>
@@ -194,7 +199,7 @@
             </div>
           </li>
           <li class="team__style">
-            <img width="270" height="260" src="./img/olga.jpg" alt="наша команда" />
+            <img width="270" height="260" src="./img/team/img-1.jpg" alt="наша команда" />
             <div class="team__item">
               <h3 class="team__list">Ольга Рєпіна</h3>
               <p class="team__profi">Frontend Developer</p>
@@ -231,7 +236,7 @@
             </div>
           </li>
           <li class="team__style">
-            <img width="270" height="260" src="./img/mikola.jpg" alt="наша команда" />
+            <img width="270" height="260" src="./img/team/img-2.jpg" alt="наша команда" />
             <div class="team__item">
               <h3 class="team__list">Микола Тарасов</h3>
               <p class="team__profi">Marketing</p>
@@ -268,7 +273,7 @@
             </div>
           </li>
           <li class="team__style">
-            <img width="270" height="260" src="./img/michajl.jpg" alt="наша команда" />
+            <img width="270" height="260" src="./img/team/img-3.jpg" alt="наша команда" />
             <div class="team__item">
               <h3 class="team__list">Михайло Єрмаков</h3>
               <p class="team__profi">UI Designer</p>
@@ -308,7 +313,7 @@
           </li>
         </ul>
       </div>
-    </section>
+    </section> 
 
     <section class="clients">
       <div class="container">
@@ -361,8 +366,9 @@
     </section>
   </main>
 
-  <!-- <footer class="style-footer">
-    <div class="container-footer container">
+<footer class="style-footer">
+  <div class="container-footer container">
+    <div class="footer-tablet">
       <div class="footer-link">
         <a href="./index.html" class="footer-logo logo">
           <span class="logo__first">Web</span>
@@ -419,24 +425,25 @@
           </li>
         </ul>
       </div>
-      <div class="container-messeg">
-        <p class="footer-messeg-title">Підпишіться на розсилку</p>
-        <form class="footer-form-masseg" action="">
-          <input class="footer-form-input" type="text" name="" placeholder="E-mail">
-          <button class="submit-btn" type="submit">Підписатися
-            <svg class="" widgt="24" height="24">
-              <use href="./img/symbol-defs.svg#icon-icon-send"></use>
-            </svg>
-          </button>
-        </form>
-
-      </div>
     </div>
+    <div class="container-messeg">
+      <p class="footer-messeg-title">Підпишіться на розсилку</p>
+      <form class="footer-form-masseg" action="">
+        <input class="footer-form-input" type="text" name="" placeholder="E-mail">
+        <button class="submit-btn" type="submit">Підписатися
+          <svg class="" widgt="24" height="24">
+            <use href="./img/symbol-defs.svg#icon-icon-send"></use>
+          </svg>
+        </button>
+      </form>
 
-  </footer>
+    </div>
+  </div>
+
+</footer>
 
 
-  <div class="backdrop is-hidden " data-modal>
+ <div class="backdrop is-hidden " data-modal>
     <div class="modal">
       <button class="close-btn" type="button" data-modal-close>
         <svg class="close-btn-icon" width="11" height="11">
@@ -500,9 +507,36 @@
       </form>
     </div>
   </div>
+  <div class="menu-container js-menu-container is-open" id="mobile-menu">
+    <button class="menu-toggle js-close-menu">
+      <svg>
+        <use href="./img/symbol-defs (5).svg#icon-close"></use>
+      </svg>
+    </button>
+
+    <!--<ul class="mobile-menu">
+      <li><a href="./index.html" class="link-mobile">Студія</a></li>
+      <li><a href="./portfolio.html" class="link-mobile">Портфоліо</a></li>
+      <li><a href="" class="link-mobile">Контакти</a></li>
+    </ul>
+    <ul class="auth-mobile-menu">
+      <li class="auth-mobile-item list">
+        <a href="tel:+380961111111" class="auth-mobile-phone">+380961111111</a>
+      </li>
+      <li class="auth-mobile-item list">
+        <a href="mailto:info@devstudio.com" class="auth-mobile-mail">info@devstudio.com</a>
+      </li>
+    </ul>
+    <ul class="mobile-social list">
+      <li class="mobile-social-item"><a href="https://www.instagram.com/" class="mobile-social-link">Instagram</a></li>
+      <li class="mobile-social-item"><a href="https://www.twitter.com/" class="mobile-social-link">Twitter</a></li>
+      <li class="mobile-social-item"><a href="https://www.facebook.com/" class="mobile-social-link">Facebook</a></li>
+      <li class="mobile-social-item"><a href="https://www.linkedin.com/" class="mobile-social-link">LinkedIn</a></li>
+    </ul>
+  </div>-->
 
   <script src="./js/modal.js"></script>
 
-</body> -->
+</body>
 
 </html>
